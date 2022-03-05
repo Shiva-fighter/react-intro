@@ -25,6 +25,13 @@ export function Counter() {
       >
         Sub1
       </button>
+      <button
+        onClick={() => {
+          setCounter(counter * 2);
+        }}
+      >
+        Double
+      </button>
     </>
   );
 }
